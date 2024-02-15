@@ -4,7 +4,7 @@
 
 ### After determined the sample size of 21 observations, we checked for the both assumptions, the variance and the normality, to conclude that both assumptions are met.
 
-![Rplot_TimeSearcing_AmountSpent by Ad](https://github.com/SelvaCamp/ab_test/assets/158846801/a993860e-a347-42a4-bcac-2f4ccdda8069)]
+![Rplot_TimeSearcing_AmountSpent by Ad](https://github.com/SelvaCamp/ab_test/assets/158846801/a993860e-a347-42a4-bcac-2f4ccdda8069)
 
 #### Running the two sample independent t-test on the mean time searching on impact of the New Ad and the Old Ad indicates that time on searching have no different rates impact, so the p-value of **0.41 is above of 0.05.
 
@@ -18,7 +18,7 @@
 
 #### We first assessed the Pearson correlation assumption, the linearity and normality and both are met.
 
-![Rplot](https://github.com/SelvaCamp/ab_test/assets/158846801/576248ac-9191-488b-a6ec-40a5243cb98d)]
+![Rplot](https://github.com/SelvaCamp/ab_test/assets/158846801/576248ac-9191-488b-a6ec-40a5243cb98d)
 
 #### First we run the pearson correlation ignoring groups. The proportion of variance explained in the AmountSpent that can be attributed to the TimeSearching is **0.048.
 
@@ -30,9 +30,9 @@
 
 #### First we checked for homoscedascity and normality. Both assumptions are met, so can use t to make predictions.
 
-![homoscedascity](https://github.com/SelvaCamp/ab_test/assets/158846801/e4db1a6f-3c1f-4096-bcd4-458be41aacc2)]
+![homoscedascity](https://github.com/SelvaCamp/ab_test/assets/158846801/e4db1a6f-3c1f-4096-bcd4-458be41aacc2)
 
-![normality](https://github.com/SelvaCamp/ab_test/assets/158846801/5602edfa-b953-4e26-8d7d-995c247d27c4)]
+![normality](https://github.com/SelvaCamp/ab_test/assets/158846801/5602edfa-b953-4e26-8d7d-995c247d27c4)
 
 #### Using the model regardless of the groups, the amount of money spent with 25 sec. are 43.6, with 37 sec. are 47.54 and with 43 sec. are 49.5.
 
